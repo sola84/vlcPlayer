@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F09D752206873B800689DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D751206873B800689DA2 /* AppDelegate.m */; };
+		9F09D755206873B800689DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D754206873B800689DA2 /* ViewController.m */; };
+		9F09D758206873B800689DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F09D756206873B800689DA2 /* Main.storyboard */; };
+		9F09D75A206873B900689DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F09D759206873B900689DA2 /* Assets.xcassets */; };
+		9F09D75D206873B900689DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F09D75B206873B900689DA2 /* LaunchScreen.storyboard */; };
+		9F09D760206873B900689DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D75F206873B900689DA2 /* main.m */; };
+		9F09D76A206873B900689DA2 /* StreamingTestVLCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D769206873B900689DA2 /* StreamingTestVLCTests.m */; };
+		9F09D775206873B900689DA2 /* StreamingTestVLCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D774206873B900689DA2 /* StreamingTestVLCUITests.m */; };
+		9F09D783206876AF00689DA2 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F09D782206876AF00689DA2 /* images.xcassets */; };
+		9F09D78620687CE600689DA2 /* VideoListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D78520687CE600689DA2 /* VideoListTableViewCell.m */; };
+		9F09D7892068830300689DA2 /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09D7882068830300689DA2 /* VideoPlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F09D766206873B900689DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F09D745206873B800689DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F09D74C206873B800689DA2;
+			remoteInfo = StreamingTestVLC;
+		};
+		9F09D771206873B900689DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F09D745206873B800689DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F09D74C206873B800689DA2;
+			remoteInfo = StreamingTestVLC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F09D74D206873B800689DA2 /* StreamingTestVLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingTestVLC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F09D750206873B800689DA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F09D751206873B800689DA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F09D753206873B800689DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F09D754206873B800689DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F09D757206873B800689DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F09D759206873B900689DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F09D75C206873B900689DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F09D75E206873B900689DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F09D75F206873B900689DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F09D765206873B900689DA2 /* StreamingTestVLCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamingTestVLCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F09D769206873B900689DA2 /* StreamingTestVLCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingTestVLCTests.m; sourceTree = "<group>"; };
+		9F09D76B206873B900689DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F09D770206873B900689DA2 /* StreamingTestVLCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamingTestVLCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F09D774206873B900689DA2 /* StreamingTestVLCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingTestVLCUITests.m; sourceTree = "<group>"; };
+		9F09D776206873B900689DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F09D782206876AF00689DA2 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		9F09D78420687CE600689DA2 /* VideoListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoListTableViewCell.h; sourceTree = "<group>"; };
+		9F09D78520687CE600689DA2 /* VideoListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoListTableViewCell.m; sourceTree = "<group>"; };
+		9F09D7872068830300689DA2 /* VideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayViewController.h; sourceTree = "<group>"; };
+		9F09D7882068830300689DA2 /* VideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F09D74A206873B800689DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D762206873B900689DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D76D206873B900689DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F09D744206873B800689DA2 = {
+			isa = PBXGroup;
+			children = (
+				9F09D74F206873B800689DA2 /* StreamingTestVLC */,
+				9F09D768206873B900689DA2 /* StreamingTestVLCTests */,
+				9F09D773206873B900689DA2 /* StreamingTestVLCUITests */,
+				9F09D74E206873B800689DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F09D74E206873B800689DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F09D74D206873B800689DA2 /* StreamingTestVLC.app */,
+				9F09D765206873B900689DA2 /* StreamingTestVLCTests.xctest */,
+				9F09D770206873B900689DA2 /* StreamingTestVLCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F09D74F206873B800689DA2 /* StreamingTestVLC */ = {
+			isa = PBXGroup;
+			children = (
+				9F09D750206873B800689DA2 /* AppDelegate.h */,
+				9F09D751206873B800689DA2 /* AppDelegate.m */,
+				9F09D753206873B800689DA2 /* ViewController.h */,
+				9F09D754206873B800689DA2 /* ViewController.m */,
+				9F09D78420687CE600689DA2 /* VideoListTableViewCell.h */,
+				9F09D78520687CE600689DA2 /* VideoListTableViewCell.m */,
+				9F09D7872068830300689DA2 /* VideoPlayViewController.h */,
+				9F09D7882068830300689DA2 /* VideoPlayViewController.m */,
+				9F09D756206873B800689DA2 /* Main.storyboard */,
+				9F09D759206873B900689DA2 /* Assets.xcassets */,
+				9F09D75B206873B900689DA2 /* LaunchScreen.storyboard */,
+				9F09D75E206873B900689DA2 /* Info.plist */,
+				9F09D75F206873B900689DA2 /* main.m */,
+				9F09D782206876AF00689DA2 /* images.xcassets */,
+			);
+			path = StreamingTestVLC;
+			sourceTree = "<group>";
+		};
+		9F09D768206873B900689DA2 /* StreamingTestVLCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F09D769206873B900689DA2 /* StreamingTestVLCTests.m */,
+				9F09D76B206873B900689DA2 /* Info.plist */,
+			);
+			path = StreamingTestVLCTests;
+			sourceTree = "<group>";
+		};
+		9F09D773206873B900689DA2 /* StreamingTestVLCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F09D774206873B900689DA2 /* StreamingTestVLCUITests.m */,
+				9F09D776206873B900689DA2 /* Info.plist */,
+			);
+			path = StreamingTestVLCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F09D74C206873B800689DA2 /* StreamingTestVLC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F09D779206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLC" */;
+			buildPhases = (
+				9F09D749206873B800689DA2 /* Sources */,
+				9F09D74A206873B800689DA2 /* Frameworks */,
+				9F09D74B206873B800689DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamingTestVLC;
+			productName = StreamingTestVLC;
+			productReference = 9F09D74D206873B800689DA2 /* StreamingTestVLC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F09D764206873B900689DA2 /* StreamingTestVLCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F09D77C206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLCTests" */;
+			buildPhases = (
+				9F09D761206873B900689DA2 /* Sources */,
+				9F09D762206873B900689DA2 /* Frameworks */,
+				9F09D763206873B900689DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F09D767206873B900689DA2 /* PBXTargetDependency */,
+			);
+			name = StreamingTestVLCTests;
+			productName = StreamingTestVLCTests;
+			productReference = 9F09D765206873B900689DA2 /* StreamingTestVLCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F09D76F206873B900689DA2 /* StreamingTestVLCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F09D77F206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLCUITests" */;
+			buildPhases = (
+				9F09D76C206873B900689DA2 /* Sources */,
+				9F09D76D206873B900689DA2 /* Frameworks */,
+				9F09D76E206873B900689DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F09D772206873B900689DA2 /* PBXTargetDependency */,
+			);
+			name = StreamingTestVLCUITests;
+			productName = StreamingTestVLCUITests;
+			productReference = 9F09D770206873B900689DA2 /* StreamingTestVLCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F09D745206873B800689DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kokoro;
+				TargetAttributes = {
+					9F09D74C206873B800689DA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F09D764206873B900689DA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F09D74C206873B800689DA2;
+					};
+					9F09D76F206873B900689DA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F09D74C206873B800689DA2;
+					};
+				};
+			};
+			buildConfigurationList = 9F09D748206873B800689DA2 /* Build configuration list for PBXProject "StreamingTestVLC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F09D744206873B800689DA2;
+			productRefGroup = 9F09D74E206873B800689DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F09D74C206873B800689DA2 /* StreamingTestVLC */,
+				9F09D764206873B900689DA2 /* StreamingTestVLCTests */,
+				9F09D76F206873B900689DA2 /* StreamingTestVLCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F09D74B206873B800689DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D75D206873B900689DA2 /* LaunchScreen.storyboard in Resources */,
+				9F09D783206876AF00689DA2 /* images.xcassets in Resources */,
+				9F09D75A206873B900689DA2 /* Assets.xcassets in Resources */,
+				9F09D758206873B800689DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D763206873B900689DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D76E206873B900689DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F09D749206873B800689DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D755206873B800689DA2 /* ViewController.m in Sources */,
+				9F09D78620687CE600689DA2 /* VideoListTableViewCell.m in Sources */,
+				9F09D7892068830300689DA2 /* VideoPlayViewController.m in Sources */,
+				9F09D760206873B900689DA2 /* main.m in Sources */,
+				9F09D752206873B800689DA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D761206873B900689DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D76A206873B900689DA2 /* StreamingTestVLCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F09D76C206873B900689DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F09D775206873B900689DA2 /* StreamingTestVLCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F09D767206873B900689DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F09D74C206873B800689DA2 /* StreamingTestVLC */;
+			targetProxy = 9F09D766206873B900689DA2 /* PBXContainerItemProxy */;
+		};
+		9F09D772206873B900689DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F09D74C206873B800689DA2 /* StreamingTestVLC */;
+			targetProxy = 9F09D771206873B900689DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F09D756206873B800689DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F09D757206873B800689DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F09D75B206873B900689DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F09D75C206873B900689DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F09D777206873B900689DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F09D778206873B900689DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F09D77A206873B900689DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU664RWSJF;
+				INFOPLIST_FILE = StreamingTestVLC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F09D77B206873B900689DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PU664RWSJF;
+				INFOPLIST_FILE = StreamingTestVLC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F09D77D206873B900689DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamingTestVLCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamingTestVLC.app/StreamingTestVLC";
+			};
+			name = Debug;
+		};
+		9F09D77E206873B900689DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamingTestVLCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamingTestVLC.app/StreamingTestVLC";
+			};
+			name = Release;
+		};
+		9F09D780206873B900689DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamingTestVLCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreamingTestVLC;
+			};
+			name = Debug;
+		};
+		9F09D781206873B900689DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StreamingTestVLCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokoro.StreamingTestVLCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StreamingTestVLC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F09D748206873B800689DA2 /* Build configuration list for PBXProject "StreamingTestVLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F09D777206873B900689DA2 /* Debug */,
+				9F09D778206873B900689DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F09D779206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F09D77A206873B900689DA2 /* Debug */,
+				9F09D77B206873B900689DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F09D77C206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F09D77D206873B900689DA2 /* Debug */,
+				9F09D77E206873B900689DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F09D77F206873B900689DA2 /* Build configuration list for PBXNativeTarget "StreamingTestVLCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F09D780206873B900689DA2 /* Debug */,
+				9F09D781206873B900689DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F09D745206873B800689DA2 /* Project object */;
+}
